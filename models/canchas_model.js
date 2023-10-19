@@ -9,6 +9,10 @@ const canchaSchema = new mongoose.Schema({
         type: String,
         required: true
     },
+    barrio:{
+        type: String,
+        required: false
+    },
     deportes: {
         type: Array,
         required: true
